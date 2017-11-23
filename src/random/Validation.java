@@ -12,13 +12,18 @@ public class Validation {
 
 		// 1. OPTIONAL: Watch the first 2 minutes of this movie: http://vimeo.com/2485018
 		
-		int randomNumber = new Random().nextInt(5);
+		int randomNumber = new Random().nextInt(3);
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
 		
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
+
+if (randomNumber = 0) {
+	JOptionPane.showMessageDialog(null, "You look very nice today.");}
+JOptionPane.showMessageDialog(null, "You are great at coding!");
+JOptionPane.showMessageDialog(null, "You are great at teaching.");
 
 		// 4. Repeat all the code above 10 times
 		
